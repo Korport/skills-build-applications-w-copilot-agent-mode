@@ -6,7 +6,7 @@ from .models import User, Team, Activity, Leaderboard, Workout
 
 @api_view(['GET'])
 def api_root(request, format=None):
-    base_url = request.build_absolute_uri('/')
+    base_url = "https://didactic-fortnight-rwgg94964v53prj6-8000.app.github.dev/"
     return Response({
         'users': f'{base_url}api/users/',
         'teams': f'{base_url}api/teams/',
