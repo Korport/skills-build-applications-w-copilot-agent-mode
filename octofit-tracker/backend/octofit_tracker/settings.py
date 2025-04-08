@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-anjx5q!b^ssw7d#n@j829wqo5j2w9%tf(g4*2uhz5lwys99apl
 DEBUG = True
 
 # Allow all hosts
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["*", "didactic-fortnight-rwgg94964v53prj6-8000.app.github.dev", "localhost"]
 
 
 # Application definition
